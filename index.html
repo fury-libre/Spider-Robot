@@ -1,13 +1,11 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spider-Robot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/lightbox/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="bg-dark text-white text-center p-4">
@@ -18,58 +16,72 @@
     <main class="container my-5">
         <section class="mb-5">
             <h2 class="text-primary">Introducción</h2>
-            <p>Este proyecto muestra el desarrollo y modelado del Spider-Bot usando Blender y textura en Subtrance. Numero: 2</p>
+            <p>Este proyecto muestra el desarrollo y modelado del Spider-Bot usando Blender y texura en Subtrance. Numero: 2</p>
         </section>
 
         <section class="mb-5">
             <h2 class="text-primary">Galería</h2>
             <div class="row" id="gallery">
                 <div class="col-md-4 mb-3">
-                    <a href="assets/images/proceso_1.png" data-lightbox="proceso" data-title="imagen frontal">
-                        <img src="assets/images/proceso_1.png" class="img-fluid rounded shadow" alt="Preview 1">
-                    </a>
+                    <img src="assets/images/placeholder.png" class="img-fluid rounded shadow" alt="Preview 1">
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="assets/images/proceso_2.png" data-lightbox="proceso" data-title="imagen lateral">
-                        <img src="assets/images/proceso_2.png" class="img-fluid rounded shadow" alt="Preview 2">
-                    </a>
+                    <img src="assets/images/placeholder.png" class="img-fluid rounded shadow" alt="Preview 2">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="assets/images/placeholder.png" class="img-fluid rounded shadow" alt="Preview 3">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="assets/images/placeholder.png" class="img-fluid rounded shadow" alt="Preview 2">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="assets/images/placeholder.png" class="img-fluid rounded shadow" alt="Preview 3">
                 </div>
             </div>
+
         </section>
 
         <section class="mb-5">
-            <h2 class="text-primary">Proceso de modelado</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="assets/images/modelo con ID.png" class="card-img-top" alt="pre uv selector">
-                        <div class="card-body">
-                            <p class="card-text text-center">Pre color ID</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="assets/images/modelo sin ID.png" class="card-img-top" alt="post uvs corrección">
-                        <div class="card-body">
-                            <p class="card-text text-center">Post color ID</p>
-                        </div>
-                    </div>
+    <h2 class="text-primary">Proceso de modelado</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <!-- Imagen 1 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="assets/images/modelo con ID.png" class="card-img-top" alt="pre uv selector">
+                <div class="card-body">
+                    <p class="card-text text-center">Pre color ID</p>
                 </div>
             </div>
-        </section>
+        </div>
 
-       <section class="mb-5">
+        <!-- Imagen 2 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="assets/images/modelo sin ID.png" class="card-img-top" alt="post uvs corrección">
+                <div class="card-body">
+                    <p class="card-text text-center">Post color ID</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- espacio por si necesito mas -->
+
+    </div>
+</section>
+
+<section class="mb-5">
     <h2 class="text-primary">Referencias de YouTube</h2>
     <p>Esta es la lista de reproducción que usé como guía durante el proceso de modelado del Spider-Robot:</p>
     <div class="ratio ratio-16x9">
-        <iframe src="https://www.youtube.com/embed/videoseries?list=PLB0wXHrWAmCwnqWfKdGEmbtSKN2EzvLrY" 
-                title="Substance Academy Series: Getting Started "
+        <iframe src="https://youtube.com/playlist?list=PLB0wXHrWAmCwnqWfKdGEmbtSKN2EzvLrY&si=VDi9hkFRFl6T-HbC" 
+                title="YouTube Playlist"
                 allowfullscreen>
         </iframe>
     </div>
 </section>
 
+   <!-- </section> arriba y abajo para añadir una seccion de class-->
 
         <section class="mb-5">
             <h2 class="text-primary">Contacto</h2>
@@ -80,8 +92,5 @@
     <footer class="bg-dark text-white text-center p-3">
         <p>&copy; 2025 - Mario Alfonso Brieño Gutierrez. Todos los derechos reservados.</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/lightbox/lightbox.min.js"></script>
 </body>
 </html>
