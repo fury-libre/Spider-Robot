@@ -4,7 +4,7 @@ proceso del spider bot
 
 Este repositorio contiene los avances del proyecto **Spider-Robot**, un ejercicio de modelado 3D, texturizado y presentación visual para portafolio.
 
-![Spider Robot](assets/images/spider_front.png)
+![Spider Robot](assets/images/escenario3.png)
 
 ## 🧰 Herramientas utilizadas
 - Blender (modelado y renderizado)
